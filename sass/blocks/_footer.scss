@@ -1,0 +1,35 @@
+.footer {
+    padding-top: 86px;
+    padding-bottom: 82px;
+}
+.footer__row {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.footer__info {
+    min-width: 300px;
+}
+.footer__logo {
+    margin-bottom: 15px;
+    margin-left: -7px;
+}
+.logo {
+}
+.footer__info-text {
+    margin-bottom: 40px;
+
+    p {
+        margin-top: 10px;
+    }
+}
+.footer__social {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    a:hover {
+        opacity: 0.8;
+    }
+}
+.footer__nav {
+}

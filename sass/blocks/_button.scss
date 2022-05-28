@@ -1,0 +1,49 @@
+.button {
+	display: inline-block;
+	height: 58px;
+	padding-left: 37px;
+	padding-right: 37px;
+	border-radius: 29px;
+	background-color: #f78434;
+
+	line-height: 58px;
+	font-weight: 700;
+	color: #fff;
+	transition: background-color 0.2s ease-in;
+
+	&:hover {
+		background-color: #e56e19f9;
+	}
+
+	&--white {
+		background-color: #fff;
+		color: #323232;
+		transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+		&:hover {
+			background-color: #323232;
+			color: #fff;
+		}
+	}
+
+	&--play {
+		padding-left: 50px;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			left: 30px;
+			top: 50%;
+			transform: translateY(-50%);
+
+			content: "";
+			display: block;
+			width: 12px;
+			height: 12px;
+
+			background-image: url('./../img/icons/play.svg');
+			background-size: initial;
+			background-repeat: no-repeat;
+		}
+	}
+}
