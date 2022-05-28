@@ -13,14 +13,14 @@ window.addEventListener('DOMContentLoaded', function() {
     input.addEventListener("mouseout", () => form.classList.remove('formLight'));
   
     //modal window
-//     var buttons = document.querySelectorAll(".toggle-button");
-// var modal = document.querySelector("#modal");
+//     const buttons = document.querySelectorAll(".toggle-button");
+//     const modal = document.querySelector("#modal");
 
-// [].forEach.call(buttons, function (button) {
-//   button.addEventListener("click", function () {
-//     modal.classList.toggle("off");
-//   });
-// });
+        // [].forEach.call(buttons, function (button) {
+        //       button.addEventListener("click", function () {
+        //       modal.classList.toggle("off");
+        //      });
+        // });
 
 
 
